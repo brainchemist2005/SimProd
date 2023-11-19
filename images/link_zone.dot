@@ -1,0 +1,13 @@
+digraph {
+  // Nodes
+  node [shape=Mrecord, style=filled, fillcolor=orange, fontname=courier];
+  "link_Z1--Z2" [label="{ Link Z1--Z2 }"];
+  node [shape=Mrecord, style=filled, fillcolor=salmon, fontname=courier];
+  "zone_Z1" [label="{ Zone Z1 | expected-demands: [1.0, 2.0, 3.0] }"];
+  node [shape=Mrecord, style=filled, fillcolor=salmon, fontname=courier];
+  "zone_Z2" [label="{ Zone Z2 | expected-demands: [3.0, 4.0, 2.0] }"];
+
+  // Relations
+  "zone_Z1" -> "link_Z1--Z2";
+  "link_Z1--Z2" -> "zone_Z2";
+}

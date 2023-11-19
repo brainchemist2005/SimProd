@@ -1,0 +1,4 @@
+digraph {
+  node [shape=Mrecord, style=filled, fillcolor=orange, fontname=courier];
+  "link_Z1--Z2" [label="{ Link Z1--Z2 }"];
+}

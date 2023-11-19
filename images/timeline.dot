@@ -1,0 +1,4 @@
+digraph {
+  node [shape=Mrecord, style=filled, fillcolor=bisque, fontname=courier];
+  "timeline" [label="{ Timeline | num-future-timesteps: 3 | future-durations: [10, 30, 60] }"];
+}

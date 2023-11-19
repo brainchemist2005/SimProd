@@ -1,0 +1,4 @@
+digraph {
+  node [shape=Mrecord, style=filled, fillcolor=palegreen, fontname=courier];
+  "plant_P" [label="{ Plant P | min-powers: [1.0, 2.0, 3.0] | max-powers: [5.0, 6.0, 7.0] }"];
+}

@@ -1,0 +1,17 @@
+[submodule "external/jansson"]
+	path = external/jansson
+	url = https://github.com/akheron/jansson.git
+[submodule "external/libtap"]
+  branch = cmake
+  commit = 25bd37e22d95ed201dd2285234c1e65b08ae82ec
+	path = external/libtap
+	url = https://gitlab.info.uqam.ca/inf3135-aut2023/libtap.git
+[submodule "external/bats-core"]
+	path = external/bats-core
+	url = https://github.com/bats-core/bats-core.git
+[submodule "external/bats-support"]
+	path = external/bats-support
+	url = https://github.com/bats-core/bats-support.git
+[submodule "external/bats-assert"]
+	path = external/bats-assert
+	url = https://github.com/bats-core/bats-assert.git

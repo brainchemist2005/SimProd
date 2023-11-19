@@ -1,0 +1,4 @@
+digraph {
+  node [shape=Mrecord, style=filled, fillcolor=salmon, fontname=courier];
+  "zone_Z" [label="{ Zone Z | expected-demands: [1.0, 2.0, 3.0] }"];
+}
